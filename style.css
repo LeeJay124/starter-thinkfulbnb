@@ -182,14 +182,18 @@ footer p {
   }
   form{
     flex-direction: row;
+    
   }
   #search{
     flex:1;
+    
   }
   .inputs{
     display: flex;
     flex:6;
     justify-content: space-evenly;
-    
+    flex-wrap: wrap;
+    align-items: flex-start;
   }
+  
 }
