@@ -106,19 +106,19 @@ form {
 form label {
   font-weight: bold;
   margin-top: 10px;
-  
-  
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  margin-left: auto;
   margin-right: 10px;
   align-self: center;
 }
-
+.formGroup select,
+.formGroup input {
+  margin-left: auto;
+}
 form button {
   background-color: #ff385c;
   border: none;
@@ -127,7 +127,9 @@ form button {
   padding: 15px;
   width: 100%;
 }
-
+.formGroup {
+  display: flex;
+}
 /* -------  Footer ------- */
 
 footer {
@@ -174,9 +176,20 @@ footer p {
     margin-left: auto;
     
   }
-  form {
-    flex-direction: row;
+  .formGroup {
+    flex-direction: column;
     
   }
-  
+  form{
+    flex-direction: row;
+  }
+  #search{
+    flex:1;
+  }
+  .inputs{
+    display: flex;
+    flex:6;
+    justify-content: space-evenly;
+    margin-right: 2em;
+  }
 }
