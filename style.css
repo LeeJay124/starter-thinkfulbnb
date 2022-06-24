@@ -67,7 +67,7 @@ header {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 55px;
   color: #fff;
 }
 header nav {
@@ -153,16 +153,11 @@ footer p {
     flex-grow: 1;
   }
   header {
-   
     display: flex;
     flex-direction: row;
-    
-    
     padding: 0 30px;
-    
   }
   header h1 {
-    
     margin: 14px 0;
     align-self: flex-start;
     padding-top: 0;
@@ -195,5 +190,10 @@ footer p {
     flex-wrap: wrap;
     align-items: flex-start;
   }
-  
+  .logo {
+    font-family: "Pangolin", cursive;
+    font-size: 30px;
+    color: #fff;
+    align-self: center;
+  }
 }
