@@ -190,6 +190,6 @@ footer p {
     display: flex;
     flex:6;
     justify-content: space-evenly;
-    margin-right: 2em;
+    
   }
 }
